@@ -1,0 +1,211 @@
+ /* Global Styles */
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f9;
+   /* Light gray background */
+   color: #333;
+   margin: 0;
+   padding: 0;
+ }
+
+ /* Container for all content */
+ .container {
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px;
+ }
+
+ /* Header and Logo Styles */
+ header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #4CAF50;
+   /* Green background for header */
+   padding: 10px 0;
+   margin-bottom: 20px;
+ }
+
+ header img {
+   width: 60px;
+   /* Adjust logo size */
+   margin-right: 15px;
+ }
+
+ header h1 {
+   color: white;
+   font-size: 28px;
+   margin: 0;
+ }
+
+ /* Section Headers */
+ h2 {
+   font-size: 24px;
+   margin-bottom: 10px;
+   color: #4CAF50;
+ }
+
+ /* Form and Button Styles */
+ label {
+   margin-right: 10px;
+   font-weight: bold;
+ }
+
+ select,
+ input {
+   padding: 8px;
+   margin: 5px 0;
+   border-radius: 5px;
+   border: 1px solid #ddd;
+   width: 200px;
+ }
+
+ button {
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 5px;
+ }
+
+ button:hover {
+   background-color: #45a049;
+ }
+
+ /* Table Styles */
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+ }
+
+ table th,
+ table td {
+   padding: 12px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+ }
+
+ table th {
+   background-color: #f4f4f9;
+ }
+
+ /* Booked Instructors List */
+ #bookedInstructorsList {
+   list-style-type: none;
+   padding: 0;
+ }
+
+ #bookedInstructorsList li {
+   background-color: #d4edda;
+   /* Light green for booked instructors */
+   padding: 10px;
+   margin: 5px 0;
+   border-radius: 5px;
+ }/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  /* Light gray background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for all content */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header and Logo Styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4CAF50;
+  /* Green background for header */
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 60px;
+  /* Adjust logo size */
+  margin-right: 15px;
+}
+
+header h1 {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Section Headers */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4CAF50;
+}
+
+/* Form and Button Styles */
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select,
+input {
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f4f4f9;
+}
+
+/* Booked Instructors List */
+#bookedInstructorsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#bookedInstructorsList li {
+  background-color: #d4edda;
+  /* Light green for booked instructors */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}

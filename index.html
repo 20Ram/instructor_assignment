@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructor Booking System</title>
+  <link rel="icon" type="image/png" href="download (1).jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header with Logo -->
+    <header>
+      <!-- Add your logo image here -->
+      <img src="download.jpeg" alt="PocketClass Logo" id="logo">
+      <h1>Instructor Booking System</h1>
+    </header>
+
+    <!-- Instructor Section for Setting Availability -->
+    <h2>Set Availability</h2>
+    <div id="setAvailability">
+      <label for="instructorSelectForAvailability">Select Instructor:</label>
+      <select id="instructorSelectForAvailability">
+        <!-- Options will be dynamically added with JavaScript -->
+      </select>
+      <label for="availableDate">Date:</label>
+      <input type="date" id="availableDate">
+      <label for="availableTime">Time:</label>
+      <input type="time" id="availableTime">
+      <button onclick="addAvailability()">Add Availability</button>
+    </div>
+
+    <!-- Student Section for Booking -->
+    <h2>Book an Instructor</h2>
+    <div id="bookInstructor">
+      <label for="instructorSelect">Select Instructor:</label>
+      <select id="instructorSelect" onchange="loadAvailability()">
+        <option value="">Select an Instructor</option>
+        <!-- Options will be dynamically added with JavaScript -->
+      </select>
+    </div>
+
+    <!-- Availability Table -->
+    <h2>Available Slots</h2>
+    <table id="availabilityTable">
+      <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Action</th>
+      </tr>
+      <!-- Slots will be dynamically added with JavaScript -->
+    </table>
+
+    <!-- Booked Instructors Section -->
+    <h2>Booked Instructors</h2>
+    <ul id="bookedInstructorsList">
+      <!-- Booked instructors will be dynamically added with JavaScript -->
+    </ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
